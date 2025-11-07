@@ -1,13 +1,13 @@
 {
   "name": "websocket-copy",
   "version": "1.0.0",
-  "main": "server.js",
   "type": "module",
+  "main": "server.js",
   "dependencies": {
+    "express": "^4.21.2",
     "ws": "^8.14.2"
   },
   "scripts": {
     "start": "node server.js"
   }
 }
-
